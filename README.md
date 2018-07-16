@@ -53,8 +53,13 @@
 > Vue
 
 	- Vue的话，有其他项目适用的公用组件的话，封装好，放到公用包里面，规范按照包里面已封装的组件（halley_packages）。  
+
 	- data里面的变量和methods里面的函数统一命名为小驼峰 。  
+
 	- 页面初始化需要调用的api数据，放在create生命周期里面（提高页面速度）  
+
 	- 公共组件命名以公司名称简拼为命名空间(app-xx.vue)  
+
 	- 使用export ，import 模块化（公用的filter，const，validate模块管理）  
+    
 	- webpack打包要设置代码混淆  
